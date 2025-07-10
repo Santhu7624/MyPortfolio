@@ -5,8 +5,8 @@ import {
 import ASPNET from "../images/.NET-core.png";
 import CSharp from "../images/csharp.jpg";
 import API from "../images/api2.png";
-import RabbitMq from "../images/RabbitMQ.png";
-import ActiveMq from "../images/active.jpg";
+//import RabbitMq from "../images/RabbitMQ.png";
+//import ActiveMq from "../images/active.jpg";
 import AzDevops from "../images/Azure-Devops.png";
 import profile from "../images/profile/profile6.jpeg";
 import CV from "../assets/GanjiSanthosh_SeniorSoftwareEngineer.pdf";
@@ -25,7 +25,7 @@ const icons = [
   { icon: <FaCss3Alt className="text-blue-500 text-5xl" />, x: "60%", y: "85%" },
   { icon: <FaJsSquare className="text-yellow-400 text-5xl" />, x: "40%", y: "12%" },
 ];
-const profileSize = "320px"; // change this to adjust size easily
+//const profileSize = "320px"; // change this to adjust size easily
 
 export default function Home2() {
   return (

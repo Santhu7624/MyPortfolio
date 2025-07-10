@@ -1,28 +1,27 @@
 import {
-    FaCode,
+  
   FaJava,
   FaHtml5,
   FaCss3Alt,
   FaJs,
   FaNode,
   FaReact,
-  FaGithub,
+
   FaAws,
   FaMicrosoft,
   FaDatabase,
-  FaGitAlt,
-  FaLaptopCode,
+
   FaCloud,
   FaServer,
-  FaCodeBranch,
-  FaTerminal,
+
+ 
   FaAngular,
    FaDocker,
   FaGitlab,
-  FaCogs,
+
   FaCubes,
   FaTools,
-  FaNetworkWired,
+ 
   FaBoxes,
   
 } from "react-icons/fa";
