@@ -1,6 +1,7 @@
 import React from "react";
 import { FaCode, FaServer, FaBrain } from "react-icons/fa";
 import { motion } from "framer-motion";
+import att from "../images/profile/ATTLogo_New.jpg";
 // const projects = [
 //   {
 //     title: "Smart Ticketing System",
@@ -33,7 +34,7 @@ const projects = [
 • Collaboration with Stakeholders: Worked directly with government agencies and internal GCC teams to deliver project-specific components. Collaborated with distributed development teams to support full-cycle application delivery.
     `,
     icon: <FaCode size={24} className="text-blue-500" />,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg", // replace with ATT logo if available
+    logo: att, // replace with ATT logo if available
   },
   {
     title: "Software Engineer",
@@ -49,7 +50,7 @@ const projects = [
 • Partnered with clients in cross-functional project meetings to ensure delivery aligned with business objectives.
     `,
     icon: <FaServer size={24} className="text-green-500" />,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+    logo: att,
   },
   {
     title: "Software Developer",
@@ -67,7 +68,7 @@ const projects = [
 • Managed installation and configuration of web servers and SQL servers, ensuring smooth and efficient operations.
     `,
     icon: <FaBrain size={24} className="text-purple-500" />,
-    logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+    logo: att,
   },
 ];
 export default function Projects() {
@@ -141,7 +142,7 @@ export default function Projects() {
               </motion.div>
 
               {/* Center Dot with Logo */}
-              <div className="hidden md:flex items-center justify-center absolute left-1/2 transform -translate-x-1/2 z-20 bg-white dark:bg-gray-800 rounded-full border-4 border-blue-500 w-12 h-12 overflow-hidden">
+              <div className="hidden md:flex items-center justify-center absolute left-1/2 transform -translate-x-1/2 z-20 bg-white dark:bg-gray-800 rounded-full border-4 border-blue-500 w-20 h-20 overflow-hidden">
                 <img
                   src={project.logo}
                   alt="Company Logo"
