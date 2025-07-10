@@ -57,12 +57,14 @@ export default function App() {
           </nav>
         </div>
       </header>
-
-      {/* Main content */}
       <main className="container mx-auto px-4 py-10 space-y-20">
         <section id="Home" className="scroll-mt-20">
           <Home2 />
         </section>
+        </main>
+      {/* Main content */}
+      <main className="container mx-auto px-4 py-10 space-y-20">
+        
         <section id="about" className="scroll-mt-20">
           <About />
         </section>

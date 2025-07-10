@@ -49,16 +49,16 @@ export default function Home2() {
 
 
       {/* Main Content */}
-      <div className="flex flex-col md:flex-row items-center justify-between w-full px-4 md:px-20">
+      <div className="flex flex-col md:flex-row items-center justify-between w-full px-4 py-2 md:px-20">
         {/* Text Panel */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5 }}
-          className="md:w-1/2 bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20 shadow-lg space-y-4 text-center md:text-left"
+          className="md:w-1/2 bg-white/10 backdrop-blur-md p-4 rounded-xl border border-white/20 shadow-lg space-y-4 text-center md:text-left"
         >
           <p className="text-4xl text-white">👋 Hi I’m </p>
-          <h1 className="text-4xl md:text-5xl font-bold text-white">
+          <h1 className="text-3xl md:text-3xl font-bold text-white">
             <span className="text-cyan-400">SANTHOSH GANJI</span>
           </h1>
           <p className="text-gray-300 text-2xl font-semibold">Full Stack Developer</p>

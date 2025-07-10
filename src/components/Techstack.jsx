@@ -113,12 +113,12 @@ const techStack = [
 
 export default function Techstack() {
   return (
-    <div className="px-4 py-8 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+    <div className="px-4 py-2 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
         <h2 className="text-2xl font-bold text-center mb-6 font-semibold text-gray-800 dark:text-gray-300">Tech Stack</h2>
       {techStack.map((section, index) => (
-        <div key={index} className="mb-8">
+        <div key={index} className="mb-4">
           <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-400">{section.category}</h2>
-          <div className="flex flex-wrap gap-6">
+          <div className="flex flex-wrap gap-4">
             {section.items.map((item, idx) => (
               <div
                 key={idx}
