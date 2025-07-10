@@ -31,22 +31,21 @@ export default function Home2() {
   return (
     <div className="relative rounded-lg  bg-gradient-to-br from-[#0f0c29] via-[#302b63]  overflow-hidden flex items-center justify-center">
 
-      {/* Floating Icons */}
       {icons.map((item, idx) => (
-        <motion.div
-          key={idx}
-          initial={{ y: 0 }}
-          animate={{ y: [0, -10, 0] }}
-          transition={{ duration: 4 + idx, repeat: Infinity }}
-          className="absolute z-10"
-          style={{
-            left: item.x,
-            top: item.y,
-          }}
-        >
-          {item.icon}
-        </motion.div>
-      ))}
+  <motion.div
+    key={idx}
+    initial={{ y: 0 }}
+    animate={{ y: [0, -10, 0] }}
+    transition={{ duration: 4 + idx, repeat: Infinity }}
+    className="absolute z-10 hidden md:block" // 👈 This line hides icons on mobile
+    style={{
+      left: item.x,
+      top: item.y,
+    }}
+  >
+    {item.icon}
+  </motion.div>
+))}
 
 
       {/* Main Content */}
