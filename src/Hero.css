@@ -1,0 +1,45 @@
+/* Hero.css */
+body {
+  background: linear-gradient(to left, #0f2027, #203a43, #2c5364);
+}
+
+@keyframes slide-down-slow {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px); /* bigger drop distance */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-down-slow {
+  animation: slide-down-slow 3.8s cubic-bezier(0.22, 1, 0.36, 1) forwards; 
+  /* slower (1.8s), and smooth ease-out cubic-bezier */
+}
+
+@keyframes slide-up-slow {
+  0% {
+    opacity: 0;
+    transform: translateY(50px); /* start below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up-slow {
+  animation: slide-up-slow 3.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
