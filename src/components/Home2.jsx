@@ -8,7 +8,7 @@ import API from "../images/api2.png";
 //import RabbitMq from "../images/RabbitMQ.png";
 //import ActiveMq from "../images/active.jpg";
 import AzDevops from "../images/Azure-Devops.png";
-import profile from "../images/profile/profile6.jpeg";
+import profile from "../images/profile/profile2.jpeg";
 import CV from "../assets/GanjiSanthosh_SeniorSoftwareEngineer.pdf";
 
 const icons = [
