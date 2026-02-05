@@ -59,7 +59,7 @@ export default function Home2() {
         >
           <p className="text-4xl text-white">👋 Hi I’m </p>
           <h1 className="text-3xl md:text-3xl font-bold text-white">
-            <span className="text-cyan-400">SANTHOSH GANJI</span>
+            <span className="text-cyan-400">GANJI SANTHOSH</span>
           </h1>
           <p className="text-gray-300 text-2xl font-semibold">Senior Full Stack Engineer</p>
           <p className="text-gray-800 text-lg text-white">I'm a passionate developer with expertise in .NET, React, Angular, AWS, Azure, and cloud-based microservices. I build scalable and modern apps.</p>

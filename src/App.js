@@ -34,7 +34,7 @@ export default function App() {
       {/* <header className="bg-blue-900 text-white shadow sticky top-0 z-50"> */}
       <header className="bg-gradient-to-r from-indigo-500 via-blue-600 to-indigo-900 text-white shadow sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Santhosh Ganji</h1>
+          <h1 className="text-2xl font-bold">Ganji Santhosh</h1>
           <nav className="space-x-6 text-sm font-medium">
             {[
               { id: "Home", label: "Home" },
@@ -84,7 +84,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="text-center py-6 bg-white shadow">
-        <p>&copy; 2025 Santhosh Ganji. All rights reserved.</p>
+        <p>&copy; 2025 Ganji Santhosh. All rights reserved.</p>
       </footer>
     </div>
   );
