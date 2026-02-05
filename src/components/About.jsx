@@ -12,7 +12,7 @@ export default function About() {
             alt="Santhosh Ganji"
             /> */}
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">About Me</h5>
-        <h2 className="mt-4 text-2xl font-semibold text-gray-800 dark:text-gray-400">👋 Hi, I'm Santhosh Ganji</h2>
+        /*<h2 className="mt-4 text-2xl font-semibold text-gray-800 dark:text-gray-400">👋 Hi, I'm Santhosh Ganji</h2>*/
         <h2 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-300">Senior Software Engineer | Full Stack Developer | AWS & Azure Certified | Cloud & Device Integration Specialist</h2>
         {/* <p className="text-gray-800 dark:text-gray-400 mt-2">    
             I'm a passionate and results-driven software engineer with 9 years of experience in building modern web applications using .NET Core, C#, Angular, and JavaScript. I specialize in developing scalable backend systems, integrating smart devices, and automating cloud infrastructure.
