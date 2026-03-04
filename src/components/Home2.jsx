@@ -62,7 +62,7 @@ export default function Home2() {
             <span className="text-cyan-400">GANJI SANTHOSH</span>
           </h1>
           <p className="text-gray-300 text-2xl font-semibold">Senior Full Stack Engineer</p>
-          <p className="text-gray-800 text-lg text-white">I'm a passionate developer with expertise in .NET, React, Angular, AWS, Azure, and cloud-based microservices. I build scalable and modern apps.</p>
+          <p className="text-gray-800 text-lg text-white">I'm a passionate developer with expertise in .NET Core, C#, ASPNET Core MVC, Angular, AWS, Azure, and cloud-native applications. I build scalable and modern apps.</p>
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
             {/* LinkedIn Button */}

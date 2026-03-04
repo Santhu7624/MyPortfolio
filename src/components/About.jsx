@@ -38,10 +38,16 @@ export default function About() {
             </p> */}
 
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-300">
-          I am a skilled Full Stack Developer with strong experience in building scalable, cloud-native web applications using technologies like ASP.NET Core, C#, React, Angular, and Node.js. I specialize in developing RESTful APIs, designing microservices architectures, and building responsive frontends using TypeScript and JavaScript.
-
-          My expertise spans both application development and infrastructure automation, including hands-on experience with Docker, Kubernetes, GitLab CI/CD, Azure DevOps, and Atlassian Bamboo. I’ve successfully deployed and managed cloud workloads on AWS (EKS) and Azure (AKS), integrating services such as RabbitMQ, ActiveMQ, and IBM WebSphere MQ for middleware communication.
-
+          Senior Full Stack Developer with 9+ years of experience specializing in backend development and cloud-native application architecture. Strong expertise in designing and building scalable, secure, and high-performance systems using .NET Core, C#, and ASP.NET Core MVC, with a deep focus on RESTful API development and microservices architectures.
+        </p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-300">
+          Hands-on experience in containerization and orchestration using Docker and Kubernetes, with production deployments on AWS (EKS) and Azure (AKS). Skilled in DevOps practices using GitLab CI/CD, Azure DevOps, and Atlassian Bamboo, enabling reliable and automated delivery pipelines.
+        </p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-300">
+          Experienced in enterprise system integration and middleware communication using RabbitMQ, ActiveMQ, and IBM WebSphere MQ, ensuring robust and asynchronous messaging across distributed systems.
+        </p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-300">
+          Possess foundational to intermediate frontend development experience using Angular, TypeScript, JavaScript, HTML, and CSS, primarily supporting backend-driven applications and API integrations.
         </p>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-300">
           I'm an AWS Certified Solutions Architect – Associate, AWS Certified Developer – Associate, and a Microsoft Certified Azure Developer Associate, which demonstrates my commitment to continuously learning and applying the latest in cloud and software development practices.
