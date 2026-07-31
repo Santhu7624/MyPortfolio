@@ -84,7 +84,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="text-center py-6 bg-white shadow">
-        <p>&copy; 2025 Ganji Santhosh. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Ganji Santhosh. All rights reserved.</p>
       </footer>
     </div>
   );
